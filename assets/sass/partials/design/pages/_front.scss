@@ -1,0 +1,29 @@
+.front {
+	
+}
+
+.logo-block {
+  vertical-align: middle;
+  margin-bottom: 2em;
+  img {
+    max-width: 220px;
+    width: 100%;
+  }
+  @include breakpoint($bp-medium, $no-query: '.no-mq') {
+    display: inline-block;
+    width: 25%;
+    margin-right: 5%;
+    padding-right: 5%;
+    border-right: 1px solid #999;
+    margin-bottom: 0;
+  }
+}
+
+.info {
+  vertical-align: middle;
+  @include breakpoint($bp-medium, $no-query: '.no-mq') {
+    display: inline-block;
+    width: 69%;
+
+  }
+}

@@ -1,0 +1,17 @@
+.wrap {
+  @include clearfix;
+  max-width: $container_width;
+  margin: 0 auto;
+  padding: 0 3em;
+}
+
+
+main {
+  @include clearfix;
+  padding: 5em 0 2em;
+  background: rgba(255, 255, 255, 0.52);
+  @include breakpoint($bp-medium, $no-query: '.no-mq') {
+     background: none;
+  }
+
+}
