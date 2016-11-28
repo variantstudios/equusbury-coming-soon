@@ -1,9 +1,9 @@
 # Site settings
-title: "Jekyll Base"
+title: "Equusbury"
 email: "team@variantstudios.com"
 description: "Our base repo for jekyll-based sites"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+url: "http://white-chicken.cloudvent.net" # the base hostname & protocol for your site
 #timezone: America/Denver - Don't set for CloudCannon...for reasons.
 version: "3.2.1" # the version of jekyll
 author.name: "Variant Studios"
